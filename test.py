@@ -1,9 +1,4 @@
-test =  open("dummy.txt")
-print("===> ",test.readline())
-print("===> ",test.readline())
-print("===> ",test.readline())
-print("===> ",test.readline())
-print("===> ",test.readline())
-print("===> ",test.readline())
-print("===> ",test.readline())
-test.close()
+import sys
+print("Your input: ")
+data = sys.stdin.readline()
+sys.stdout.write(data)
